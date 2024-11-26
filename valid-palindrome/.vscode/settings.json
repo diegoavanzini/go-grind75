@@ -1,0 +1,6 @@
+{
+    "go.testOnSave": true,
+    "go.formatOnSave": true,
+    "go.testFiles": ["**/_test.go"],
+    "go.testMode": "test"
+}
