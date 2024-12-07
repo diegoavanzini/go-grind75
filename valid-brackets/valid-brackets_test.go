@@ -1,4 +1,4 @@
-package validparentheses
+package validbrackets
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_ValidParetheses(t *testing.T) {
+func Test_ValidBrackets(t *testing.T) {
 	tests := []struct {
 		name     string
 		input    string
@@ -24,7 +24,7 @@ func Test_ValidParetheses(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			// ARRANGE
 			// ACT
-			actual := validateParentheses(tt.input)
+			actual := validateBrackets(tt.input)
 			// ASSERT
 			assert.Equal(t, tt.expected, actual)
 		})

@@ -1,4 +1,4 @@
-module github.com/diegoavanzini/algorithmswithgo.com/valid-parentheses
+module github.com/diegoavanzini/algorithmswithgo.com/valid-brackets
 
 go 1.23.0
 

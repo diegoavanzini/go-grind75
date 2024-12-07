@@ -1,6 +1,6 @@
-package validparentheses
+package validbrackets
 
-func validateParentheses(input string) bool {
+func validateBrackets(input string) bool {
 	var counters = map[rune]rune{
 		'(': ')',
 		'[': ']',
